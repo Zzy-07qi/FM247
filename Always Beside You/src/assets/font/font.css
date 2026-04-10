@@ -1,0 +1,12 @@
+/* src/assets/fonts/font.css */
+/* 声明荆南圆体字体 */
+@font-face {
+    font-family: 'JingNanYuanTi';
+    /* 自定义字体名，后续调用用这个 */
+    src:
+        url('./JingNanYuanTi.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+    /* 字体加载时的过渡，提升体验 */
+}

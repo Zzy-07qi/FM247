@@ -1,0 +1,128 @@
+/* 遮罩层：点击按钮后显示，实现背景阴影化 */
+.add-book-mask {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+    display: none;
+    /* 默认隐藏 */
+}
+
+/* 表单容器：改为固定定位，实现居中且居页面最上层 */
+.add-book-container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 600px;
+    width: 90%;
+    /* 适配小屏幕 */
+    padding: 20px;
+    border: 1px solid #eee;
+    border-radius: 8px;
+    background: #fff;
+    z-index: 1000;
+    /* 高于遮罩层 */
+    display: none;
+    /* 默认隐藏 */
+}
+
+/* 显示表单时的激活状态 */
+.add-book-mask.active,
+.add-book-container.active {
+    display: block;
+}
+
+.add-book-title {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: #333;
+    text-align: center;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+}
+
+.add-book-form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.form-label {
+    font-size: 14px;
+    color: #666;
+    font-weight: 500;
+}
+
+.form-input {
+    padding: 10px 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.form-input:focus {
+    outline: none;
+    border-color: #165DFF;
+    box-shadow: 0 0 0 2px rgba(22, 93, 255, 0.1);
+}
+
+.error-tip {
+    font-size: 12px;
+    color: #F53F3F;
+    display: none;
+    /* 默认隐藏错误提示 */
+}
+
+/* 错误状态（后续可通过 JS 添加此类名显示） */
+.form-group.error .error-tip {
+    display: block;
+}
+
+.form-group.error .form-input {
+    border-color: #F53F3F;
+}
+
+.form-actions {
+    display: flex;
+    gap: 10px;
+    margin-top: 8px;
+}
+
+.form-btn {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.cancel-btn {
+    background: #f5f5f5;
+    color: #666;
+}
+
+.cancel-btn:hover {
+    background: #eee;
+}
+
+.submit-btn {
+    background: #165DFF;
+    color: #fff;
+}
+
+.submit-btn:hover {
+    background: #0E4BD8;
+}

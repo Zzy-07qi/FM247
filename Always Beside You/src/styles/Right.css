@@ -1,0 +1,76 @@
+.sidebar-ri {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-55%);
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    /* 原12px → 6px */
+    align-items: center;
+    /* background: #f8e8ff; */
+    padding: 10px 0;
+    /* 原20px → 10px */
+    border-radius: 15px;
+    /* 原30px → 15px */
+    right: 15px;
+    /* 原90px → 45px */
+    box-sizing: border-box;
+    z-index: 1;
+}
+
+/* 圆形按钮基础样式 - 缩小一倍 */
+.sidebar-btn-ri {
+    width: 40px;
+    /* 原60px → 30px */
+    height: 40px;
+    /* 原60px → 30px */
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(10px);
+    border: none;
+    outline: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.4);
+    /* 阴影同步缩小 */
+    transition: all 0.2s ease;
+}
+
+/* 按钮hover/点击交互效果 */
+.sidebar-btn-ri:hover {
+
+    background-color: #f0f0f0;
+
+    /* 阴影同步缩小 */
+}
+
+.sidebar-btn-ri:active {
+    transform: scale(0.98);
+}
+
+/* 禁用样式（可选） */
+.sidebar-btn-ri:disabled {
+    background: #f0f0f0;
+    cursor: not-allowed;
+    opacity: 0.7;
+}
+
+/* 通用图标样式 - 缩小一倍 */
+.icon-ri {
+    font-size: 10px;
+    /* 原20px → 10px */
+    color: #6b7280;
+}
+
+.sidebar-ri img {
+    width: 16px;
+    height: 16px;
+
+}
+
+.lvl {
+    font-family: 'JingNanYuanTi', sans-serif;
+    font-size: 18px;
+}

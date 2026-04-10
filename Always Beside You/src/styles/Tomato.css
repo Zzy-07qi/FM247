@@ -1,0 +1,146 @@
+/* 卡片容器：浅紫背景、圆角、阴影 - 缩小一倍 */
+.card-tomato {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-60%);
+    left: 4%;
+    width: 185px;
+    height: 280px;
+    background-color: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(248, 232, 255, 0.6);
+    padding: 15px 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+}
+
+/* 圆形进度框 - 缩小一倍 */
+.circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    position: relative;
+    background: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(10px);
+    z-index: 1;
+    overflow: visible;
+}
+
+.circle-progress {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform: rotate(-90deg);
+    z-index: -1;
+}
+
+.circle-progress circle {
+    fill: none;
+    stroke: #e4affa;
+    stroke-width: 3;
+    stroke-linecap: round;
+    stroke-dasharray: 295.31;
+    stroke-dashoffset: calc(295.31 * var(--progress, 100) / 100);
+    transition: stroke-dashoffset 0.3s ease;
+}
+
+/* 时间文字样式 - 缩小一倍 */
+.timeText {
+    font-family: 'JingNanYuanTi', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #333333;
+    margin: 0;
+    z-index: 1;
+}
+
+.statusText {
+    font-family: 'JingNanYuanTi', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    color: #666666;
+    margin: 2px 0 0 0;
+    z-index: 1;
+}
+
+.setTomatotime {
+    font-family: 'JingNanYuanTi', sans-serif;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.setTomatotime input {
+    width: 30px;
+}
+
+
+
+
+/* 按钮容器：横向排列 */
+.buttons {
+    display: flex;
+    gap: 10px;
+    /* 原20px → 10px */
+    margin-top: 20px;
+    /* 原10px → 5px */
+}
+
+/* 圆形按钮基础样式 - 缩小一倍 */
+.btn {
+    width: 40px;
+    /* 原50px → 25px */
+    height: 40px;
+    /* 原50px → 25px */
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+    font-size: 12px;
+    color: #ffffff;
+    transition: all 0.2s ease;
+}
+
+/* 暂停/播放按钮：浅紫色 */
+.playBtn {
+    background: #d8b9f3;
+}
+
+/* 暂停按钮 */
+.pauseBtn {
+    background: #d8b9f3;
+}
+
+/* 重置按钮：浅灰色 */
+.resetBtn {
+    background: #e5e5e5;
+    color: #666666;
+}
+
+/* 按钮hover效果 */
+.btn:hover {
+    transform: scale(1.05);
+}
+
+.btn:active {
+    transform: scale(0.98);
+}

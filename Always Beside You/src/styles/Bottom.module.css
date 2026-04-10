@@ -1,0 +1,219 @@
+/* src/components/MusicPlayerBar.module.css */
+.playerBar {
+    z-index: 10;
+    gap: 16px;
+    padding: 8px 16px;
+    background-color: rgb(255, 255, 255, 0.6);
+    border-radius: 60px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    width: 350px;
+    height: 60px;
+    position: fixed;
+    left: 50%;
+    bottom: 20px;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+/* 歌曲信息区 */
+.songInfo {
+    flex: 1;
+    min-width: 0;
+    text-align: left;
+    padding-left: 10px;
+}
+
+.songName {
+    font-size: 14px;
+    font-family: 'JingNanYuanTi', sans-serif;
+    color: #333;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* 控制按钮区 */
+.controlButtons {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.controlButton {
+    width: 24px;
+    height: 24px;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+}
+
+.controlButton img {
+    width: 20px;
+    height: 20px;
+}
+
+.controlButton:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.volumeWrapper {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.volumeButton {
+    width: 24px;
+    height: 24px;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+}
+
+.volumeButton img {
+    width: 20px;
+    height: 20px;
+}
+
+.volumeButton:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.volumeSlider {
+    width: 60px;
+    height: 4px;
+    accent-color: rgb(134, 134, 134);
+    cursor: pointer;
+}
+
+/* 音乐上传卡片样式 */
+.addMusicCard {
+    position: fixed;
+    left: 50%;
+    bottom: 100px;
+    transform: translateX(-50%);
+    width: 300px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 16px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+    z-index: 100;
+}
+
+.cardHeader {
+    padding: 16px 20px;
+    border-bottom: 1px solid #f0f0f0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cardHeader h3 {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 600;
+    color: #333;
+}
+
+.closeButton {
+    width: 24px;
+    height: 24px;
+    border: none;
+    background: transparent;
+    font-size: 20px;
+    color: #999;
+    cursor: pointer;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.2s;
+}
+
+.closeButton:hover {
+    background-color: #f5f5f5;
+}
+
+.cardBody {
+    padding: 20px;
+}
+
+.formGroup {
+    margin-bottom: 16px;
+}
+
+.formGroup label {
+    display: block;
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 8px;
+}
+
+.input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    font-size: 14px;
+    box-sizing: border-box;
+    transition: border-color 0.2s;
+}
+
+.input:focus {
+    outline: none;
+    border-color: #ff7e67;
+}
+
+.fileInput {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+.fileName {
+    margin-top: 8px;
+    font-size: 12px;
+    color: #999;
+}
+
+.cardFooter {
+    padding: 16px 20px;
+    border-top: 1px solid #f0f0f0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.confirmButton {
+    padding: 10px 20px;
+    background-color: #d6d6d6;
+    color: #000000;
+    border: none;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.confirmButton:hover {
+    background-color: #ff6a50;
+}
+
+.confirmButton:active {
+    transform: scale(0.98);
+}

@@ -1,0 +1,59 @@
+.top {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    width: 200px;
+    height: 80px;
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(10px);
+    transform: translateX(-50%);
+    border-radius: 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.top img {
+    position: absolute;
+    top: 80px;
+    left: 50%;
+    transform: translateX(-50%) rotate(180deg);
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+}
+
+.year {
+    font-family: 'JingNanYuanTi', sans-serif;
+    font-size: smaller;
+    text-align: center;
+    line-height: 40px;
+    height: 50%;
+}
+
+.time {
+    font-family: 'JingNanYuanTi', sans-serif;
+    font-size: 27px;
+    text-align: center;
+    line-height: 25px;
+    height: 50%;
+}
+
+.top {
+    /* 可选：原有top组件样式，保持不变 */
+    /* width: 100%; color: #333; 等 */
+
+    /* 动画相关配置 */
+    opacity: 0;
+    /* 初始透明（隐藏空状态） */
+    transform: translateY(10px);
+    /* 初始轻微下移，增加动画层次感 */
+    transition: all 0.8s ease;
+
+}
+
+/* 激活动画的类名（组件有时间数据后添加） */
+.top.show {
+    opacity: 1;
+    /* 完全不透明 */
+    transform: translateY(0) translateX(-50%);
+    /* 回到原位置 */
+}

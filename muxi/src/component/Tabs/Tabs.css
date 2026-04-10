@@ -1,0 +1,67 @@
+.tabs {
+    display: flex;
+    flex-direction: column;
+}
+
+.tabs-header {
+    display: flex;
+    gap: 1rem;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+.tabs-horizontal {
+    display: flex;
+    flex-direction: row;
+}
+
+.tabs-vertical {
+    display: flex;
+    flex-direction: column;
+}
+
+.tabs-nav {
+    border-bottom: 2px solid transparent;
+    padding: 0.5rem 0;
+    background: none;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    cursor: pointer;
+    font-size: 0.875rem;
+    transition:
+        color 0.2s,
+        border-color 0.2s;
+    color: #6b7280;
+}
+
+.tabs-nav:hover {
+    color: #374151;
+}
+
+.tabs-nav.active {
+    font-weight: 500;
+}
+
+.tabs-content {
+    padding: 0.75rem 0;
+}
+
+.tabs-info .tabs-nav.active {
+    border-bottom-color: #3b82f6;
+    color: #2563eb;
+}
+
+.tabs-success .tabs-nav.active {
+    border-bottom-color: #22c55e;
+    color: #16a34a;
+}
+
+.tabs-warning .tabs-nav.active {
+    border-bottom-color: #eab308;
+    color: #ca8a04;
+}
+
+.tabs-error .tabs-nav.active {
+    border-bottom-color: #ef4444;
+    color: #dc2626;
+}

@@ -1,0 +1,636 @@
+images/皮肤2/刘海右.png
+size: 1220,1277
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+皮肤2/刘海右
+  rotate: false
+  xy: 0, 0
+  size: 1220, 1277
+  orig: 1220, 1277
+  offset: 0, 0
+  index: -1
+
+images/皮肤2/刘海左.png
+size: 518,1409
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+皮肤2/刘海左
+  rotate: false
+  xy: 0, 0
+  size: 518, 1409
+  orig: 518, 1409
+  offset: 0, 0
+  index: -1
+
+images/皮肤2/右下睫毛.png
+size: 293,232
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+皮肤2/右下睫毛
+  rotate: false
+  xy: 0, 0
+  size: 293, 232
+  orig: 293, 232
+  offset: 0, 0
+  index: -1
+
+images/皮肤2/右中指.png
+size: 710,278
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+皮肤2/右中指
+  rotate: false
+  xy: 0, 0
+  size: 710, 278
+  orig: 710, 278
+  offset: 0, 0
+  index: -1
+
+images/皮肤2/右四指.png
+size: 654,370
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+皮肤2/右四指
+  rotate: false
+  xy: 0, 0
+  size: 654, 370
+  orig: 654, 370
+  offset: 0, 0
+  index: -1
+
+images/皮肤2/右大臂.png
+size: 1220,3264
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+皮肤2/右大臂
+  rotate: false
+  xy: 0, 0
+  size: 1220, 3264
+  orig: 1220, 3264
+  offset: 0, 0
+  index: -1
+
+images/皮肤2/右小指.png
+size: 550,230
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+皮肤2/右小指
+  rotate: false
+  xy: 0, 0
+  size: 550, 230
+  orig: 550, 230
+  offset: 0, 0
+  index: -1
+
+images/皮肤2/右小臂.png
+size: 1949,955
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+皮肤2/右小臂
+  rotate: false
+  xy: 0, 0
+  size: 1949, 955
+  orig: 1949, 955
+  offset: 0, 0
+  index: -1
+
+images/皮肤2/右掌.png
+size: 985,701
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+皮肤2/右掌
+  rotate: false
+  xy: 0, 0
+  size: 985, 701
+  orig: 985, 701
+  offset: 0, 0
+  index: -1
+
+images/皮肤2/右眉毛.png
+size: 353,73
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+皮肤2/右眉毛
+  rotate: false
+  xy: 0, 0
+  size: 353, 73
+  orig: 353, 73
+  offset: 0, 0
+  index: -1
+
+images/皮肤2/右眼球.png
+size: 201,219
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+皮肤2/右眼球
+  rotate: false
+  xy: 0, 0
+  size: 201, 219
+  orig: 201, 219
+  offset: 0, 0
+  index: -1
+
+images/皮肤2/右眼白.png
+size: 329,264
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+皮肤2/右眼白
+  rotate: false
+  xy: 0, 0
+  size: 329, 264
+  orig: 329, 264
+  offset: 0, 0
+  index: -1
+
+images/皮肤2/右睫毛.png
+size: 447,177
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+皮肤2/右睫毛
+  rotate: false
+  xy: 0, 0
+  size: 447, 177
+  orig: 447, 177
+  offset: 0, 0
+  index: -1
+
+images/皮肤2/右瞳孔.png
+size: 68,68
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+皮肤2/右瞳孔
+  rotate: false
+  xy: 0, 0
+  size: 68, 68
+  orig: 68, 68
+  offset: 0, 0
+  index: -1
+
+images/皮肤2/右短.png
+size: 939,1611
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+皮肤2/右短
+  rotate: false
+  xy: 0, 0
+  size: 939, 1611
+  orig: 939, 1611
+  offset: 0, 0
+  index: -1
+
+images/皮肤2/右长.png
+size: 1083,2567
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+皮肤2/右长
+  rotate: false
+  xy: 0, 0
+  size: 1083, 2567
+  orig: 1083, 2567
+  offset: 0, 0
+  index: -1
+
+images/皮肤2/右食指.png
+size: 680,343
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+皮肤2/右食指
+  rotate: false
+  xy: 0, 0
+  size: 680, 343
+  orig: 680, 343
+  offset: 0, 0
+  index: -1
+
+images/皮肤2/右高光.png
+size: 35,35
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+皮肤2/右高光
+  rotate: false
+  xy: 0, 0
+  size: 35, 35
+  orig: 35, 35
+  offset: 0, 0
+  index: -1
+
+images/皮肤2/后头发.png
+size: 1361,1789
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+皮肤2/后头发
+  rotate: false
+  xy: 0, 0
+  size: 1361, 1789
+  orig: 1361, 1789
+  offset: 0, 0
+  index: -1
+
+images/皮肤2/嘴巴.png
+size: 163,29
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+皮肤2/嘴巴
+  rotate: false
+  xy: 0, 0
+  size: 163, 29
+  orig: 163, 29
+  offset: 0, 0
+  index: -1
+
+images/皮肤2/大拇指.png
+size: 426,113
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+皮肤2/大拇指
+  rotate: false
+  xy: 0, 0
+  size: 426, 113
+  orig: 426, 113
+  offset: 0, 0
+  index: -1
+
+images/皮肤2/大拇指右.png
+size: 520,149
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+皮肤2/大拇指右
+  rotate: false
+  xy: 0, 0
+  size: 520, 149
+  orig: 520, 149
+  offset: 0, 0
+  index: -1
+
+images/皮肤2/左下睫毛.png
+size: 330,182
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+皮肤2/左下睫毛
+  rotate: false
+  xy: 0, 0
+  size: 330, 182
+  orig: 330, 182
+  offset: 0, 0
+  index: -1
+
+images/皮肤2/左中指.png
+size: 516,439
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+皮肤2/左中指
+  rotate: false
+  xy: 0, 0
+  size: 516, 439
+  orig: 516, 439
+  offset: 0, 0
+  index: -1
+
+images/皮肤2/左前右.png
+size: 507,1964
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+皮肤2/左前右
+  rotate: false
+  xy: 0, 0
+  size: 507, 1964
+  orig: 507, 1964
+  offset: 0, 0
+  index: -1
+
+images/皮肤2/左前左.png
+size: 848,1608
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+皮肤2/左前左
+  rotate: false
+  xy: 0, 0
+  size: 848, 1608
+  orig: 848, 1608
+  offset: 0, 0
+  index: -1
+
+images/皮肤2/左后.png
+size: 516,1806
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+皮肤2/左后
+  rotate: false
+  xy: 0, 0
+  size: 516, 1806
+  orig: 516, 1806
+  offset: 0, 0
+  index: -1
+
+images/皮肤2/左四指.png
+size: 483,328
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+皮肤2/左四指
+  rotate: false
+  xy: 0, 0
+  size: 483, 328
+  orig: 483, 328
+  offset: 0, 0
+  index: -1
+
+images/皮肤2/左大臂.png
+size: 1359,2288
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+皮肤2/左大臂
+  rotate: false
+  xy: 0, 0
+  size: 1359, 2288
+  orig: 1359, 2288
+  offset: 0, 0
+  index: -1
+
+images/皮肤2/左小指.png
+size: 486,250
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+皮肤2/左小指
+  rotate: false
+  xy: 0, 0
+  size: 486, 250
+  orig: 486, 250
+  offset: 0, 0
+  index: -1
+
+images/皮肤2/左小臂.png
+size: 1588,1117
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+皮肤2/左小臂
+  rotate: false
+  xy: 0, 0
+  size: 1588, 1117
+  orig: 1588, 1117
+  offset: 0, 0
+  index: -1
+
+images/皮肤2/左掌.png
+size: 997,649
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+皮肤2/左掌
+  rotate: false
+  xy: 0, 0
+  size: 997, 649
+  orig: 997, 649
+  offset: 0, 0
+  index: -1
+
+images/皮肤2/左眉毛.png
+size: 263,79
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+皮肤2/左眉毛
+  rotate: false
+  xy: 0, 0
+  size: 263, 79
+  orig: 263, 79
+  offset: 0, 0
+  index: -1
+
+images/皮肤2/左眼球.png
+size: 178,194
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+皮肤2/左眼球
+  rotate: false
+  xy: 0, 0
+  size: 178, 194
+  orig: 178, 194
+  offset: 0, 0
+  index: -1
+
+images/皮肤2/左眼球底部.png
+size: 287,238
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+皮肤2/左眼球底部
+  rotate: false
+  xy: 0, 0
+  size: 287, 238
+  orig: 287, 238
+  offset: 0, 0
+  index: -1
+
+images/皮肤2/左睫毛.png
+size: 357,168
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+皮肤2/左睫毛
+  rotate: false
+  xy: 0, 0
+  size: 357, 168
+  orig: 357, 168
+  offset: 0, 0
+  index: -1
+
+images/皮肤2/左瞳孔.png
+size: 61,67
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+皮肤2/左瞳孔
+  rotate: false
+  xy: 0, 0
+  size: 61, 67
+  orig: 61, 67
+  offset: 0, 0
+  index: -1
+
+images/皮肤2/左食指.png
+size: 614,428
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+皮肤2/左食指
+  rotate: false
+  xy: 0, 0
+  size: 614, 428
+  orig: 614, 428
+  offset: 0, 0
+  index: -1
+
+images/皮肤2/左高光.png
+size: 37,48
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+皮肤2/左高光
+  rotate: false
+  xy: 0, 0
+  size: 37, 48
+  orig: 37, 48
+  offset: 0, 0
+  index: -1
+
+images/皮肤2/帽子.png
+size: 2375,1054
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+皮肤2/帽子
+  rotate: false
+  xy: 0, 0
+  size: 2375, 1054
+  orig: 2375, 1054
+  offset: 0, 0
+  index: -1
+
+images/皮肤2/张开的嘴巴.png
+size: 196,118
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+皮肤2/张开的嘴巴
+  rotate: false
+  xy: 0, 0
+  size: 196, 118
+  orig: 196, 118
+  offset: 0, 0
+  index: -1
+
+images/皮肤2/肩.png
+size: 1699,827
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+皮肤2/肩
+  rotate: false
+  xy: 0, 0
+  size: 1699, 827
+  orig: 1699, 827
+  offset: 0, 0
+  index: -1
+
+images/皮肤2/胸.png
+size: 1909,1066
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+皮肤2/胸
+  rotate: false
+  xy: 0, 0
+  size: 1909, 1066
+  orig: 1909, 1066
+  offset: 0, 0
+  index: -1
+
+images/皮肤2/脖子.png
+size: 827,1113
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+皮肤2/脖子
+  rotate: false
+  xy: 0, 0
+  size: 827, 1113
+  orig: 827, 1113
+  offset: 0, 0
+  index: -1
+
+images/皮肤2/脸和耳朵.png
+size: 1636,1877
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+皮肤2/脸和耳朵
+  rotate: false
+  xy: 0, 0
+  size: 1636, 1877
+  orig: 1636, 1877
+  offset: 0, 0
+  index: -1
+
+images/皮肤2/腰.png
+size: 2112,1148
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+皮肤2/腰
+  rotate: false
+  xy: 0, 0
+  size: 2112, 1148
+  orig: 2112, 1148
+  offset: 0, 0
+  index: -1
+
+images/皮肤2/躯干.png
+size: 2373,2624
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+皮肤2/躯干
+  rotate: false
+  xy: 0, 0
+  size: 2373, 2624
+  orig: 2373, 2624
+  offset: 0, 0
+  index: -1
+
+images/皮肤2/辫子.png
+size: 242,236
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+皮肤2/辫子
+  rotate: false
+  xy: 0, 0
+  size: 242, 236
+  orig: 242, 236
+  offset: 0, 0
+  index: -1
+
+images/皮肤2/鼻子.png
+size: 31,76
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+皮肤2/鼻子
+  rotate: false
+  xy: 0, 0
+  size: 31, 76
+  orig: 31, 76
+  offset: 0, 0
+  index: -1

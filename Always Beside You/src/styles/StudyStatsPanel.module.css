@@ -1,0 +1,297 @@
+.panelContainer {
+    font-family: 'JingNanYuanTi', sans-serif;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-55%);
+    left: 5%;
+    width: 500px;
+    height: 350px;
+    padding: 12px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.05);
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    box-sizing: border-box;
+    margin: 0;
+    border: 0;
+}
+
+/* 顶部数据卡片 - 平均分布+最小占用 */
+.statsCards {
+    display: flex;
+    gap: 8px;
+    width: 100%;
+    height: 60px;
+    margin: 0;
+    padding: 0;
+}
+
+.statCard {
+    flex: 1;
+    padding: 6px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+    margin: 0;
+}
+
+.statIcon {
+    font-size: 12px;
+    line-height: 1;
+}
+
+.statValue {
+    font-size: 20px;
+    font-weight: 700;
+    color: #333;
+    line-height: 1;
+    margin: 0;
+}
+
+.statLabel {
+    font-size: 12px;
+    color: #666;
+    line-height: 1;
+    margin: 0;
+}
+
+/* 时间选项卡 - 平均分布+固定高度 */
+.tabBar {
+    display: flex;
+    background-color: #f0f0f0;
+    border-radius: 14px;
+    padding: 2px;
+    height: 24px;
+    width: 100%;
+    margin: 0;
+}
+
+.tabItem {
+    flex: 1;
+    padding: 2px 6px;
+    border-radius: 12px;
+    font-size: 14px;
+    color: #999;
+    cursor: pointer;
+    transition: all 0.2s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    border: 0;
+}
+
+.tabItem.active {
+    background: linear-gradient(90deg, #888 0%, #ccc 100%);
+    color: #fff;
+    font-weight: 500;
+}
+
+/* 图表区域 - 底部对齐+左侧刻度+深色网格 */
+.chartArea {
+    flex: 1;
+    position: relative;
+    border-left: 1px solid #e0e0e0;
+    border-bottom: 1px solid #e0e0e0;
+    margin: 0 0 8px 24px;
+    padding: 0;
+    width: calc(100% - 24px);
+    display: flex;
+    align-items: flex-end;
+    /* 核心：图表从底部开始绘制 */
+}
+
+/* 左侧数字刻度 - 居中对齐 */
+.chartYLabel {
+    position: absolute;
+    left: -24px;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 0 6px 0 0;
+    margin: 0;
+    font-size: 12px;
+    color: #666;
+    height: 100%;
+}
+
+.ylabelItem {
+    line-height: 1;
+    margin: 0;
+    padding: 0;
+}
+
+/* 网格线 - 加深颜色+底部对齐 */
+.chartGrid {
+    position: absolute;
+    bottom: 0;
+    /* 核心：网格从底部开始 */
+    left: 0;
+    right: 0;
+    top: 0;
+    pointer-events: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.gridLine {
+    height: 1px;
+    background-color: #dcdcdc;
+    /* 加深网格线，更清晰 */
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/* 新增：X轴日期标签 */
+.chartXLabels {
+    position: absolute;
+    bottom: -18px;
+    /* 放在图表底部边框下方 */
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 9px;
+    color: #666;
+    padding: 0 4px;
+    box-sizing: border-box;
+}
+
+.xLabelItem {
+    flex: 1;
+    text-align: center;
+    line-height: 1;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* 底部日期控制 - 固定高度+防遮挡 */
+.dateControl {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 14px;
+    color: #666;
+    height: 32px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    z-index: 5;
+}
+
+.dateBtn {
+    width: 24px;
+    height: 24px;
+    border: none;
+    background-color: #f0f0f0;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    padding: 0;
+    margin: 0;
+}
+
+.dateBtn:hover {
+    background-color: #e8e8e8;
+}
+
+/* 图例 - 整个面板右下角 */
+.legend {
+    position: absolute;
+    bottom: 12px;
+    right: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    font-size: 12px;
+    color: #666;
+    z-index: 10;
+    margin: 0;
+    padding: 0;
+}
+
+.legendItem {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    margin: 0;
+    padding: 0;
+}
+
+.legendDot {
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    margin: 0;
+    padding: 0;
+}
+
+/* 图表占位条 - 模拟折线/柱状图，底部对齐示例 */
+@keyframes barGrowUp {
+    from {
+        transform: scaleY(0);
+        transform-origin: bottom;
+        opacity: 0;
+    }
+
+    to {
+        transform: scaleY(1);
+        transform-origin: bottom;
+        opacity: 1;
+    }
+}
+
+.chartBars {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: flex-end;
+    gap: 8px;
+    padding: 0 0 0 4px;
+    box-sizing: border-box;
+}
+
+.chartBar1 {
+    flex: 1;
+    background-color: #409eff;
+    border-radius: 2px 2px 0 0;
+    min-height: 2px;
+    transform: scaleY(0);
+    transform-origin: bottom;
+    opacity: 0;
+    animation: barGrowUp 0.6s ease-out forwards;
+    /* 防止0值时完全消失 */
+}
+
+.chartBar2 {
+    flex: 1;
+    background-color: #67c23a;
+    border-radius: 2px 2px 0 0;
+    margin-left: -4px;
+    transform: scaleY(0);
+    transform-origin: bottom;
+    opacity: 0;
+    animation: barGrowUp 0.6s ease-out forwards;
+    /* 让两个柱子重叠，形成分组效果 */
+    min-height: 2px;
+    /* 防止0值时完全消失 */
+}

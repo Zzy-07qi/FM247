@@ -1,0 +1,61 @@
+.todo {
+    display: flex;
+    align-items: center;
+    width: 200px;
+    height: 50px;
+    background-color: rgba(255, 255, 255, 0.817);
+    backdrop-filter: blur(10px);
+    border-radius: 25px;
+    position: absolute;
+    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
+    top: 37%;
+    left: 4%;
+}
+
+.todo-img {
+    width: 20px;
+    height: 20px;
+}
+
+.todo-input {
+    font-family: 'JingNanYuanTi', sans-serif;
+
+    width: 70%;
+    height: 100%;
+    background-color: transparent;
+    margin-left: 25px;
+    outline: none;
+    border: none;
+}
+
+.todo-list {
+    position: relative;
+    width: 60%;
+    max-width: 500px;
+    margin: 20px auto;
+    background: #ffffff;
+    border-radius: 16px;
+    padding: 20px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+    z-index: 999;
+    max-height: 200px;
+    overflow: auto;
+}
+
+.todo-item {
+    /* display: flex;
+    align-items: center; */
+    padding: 12px 0;
+    border-bottom: 1px solid #f3f3f3;
+}
+
+.todo-item:last-child {
+    border-bottom: none;
+}
+
+.todo-delete {
+    font-family: 'JingNanYuanTi', sans-serif;
+    float: right;
+    margin-right: 15px;
+    cursor: pointer;
+}
